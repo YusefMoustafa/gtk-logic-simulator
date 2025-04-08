@@ -26,9 +26,15 @@ This is a C-based GUI logic simulator that computes the Boolean expression **(A 
 brew install gtk+3
 
 
+```
+### 2. Compile the program
 
+```bash
 gcc logic_simulator.c -o logic_simulator `pkg-config --cflags --libs gtk+-3.0`
+```
 
+### 3. Run the simulator
 
-
+```bash
 ./logic_simulator
+```
