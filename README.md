@@ -24,3 +24,11 @@ This is a C-based GUI logic simulator that computes the Boolean expression **(A 
 ### 1. Install GTK+3 (for macOS via Homebrew)
 ```bash
 brew install gtk+3
+
+
+
+gcc logic_simulator.c -o logic_simulator `pkg-config --cflags --libs gtk+-3.0`
+
+
+
+./logic_simulator
